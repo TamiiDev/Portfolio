@@ -3,6 +3,10 @@
 $primary_bg: #d2b6e9;
 $secundary_bg: #efe6fe; 
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +23,7 @@ body {
     background-color: $primary_bg;
     position: sticky;
     top: 0;
+    z-index: 1000;
 
     .nav {
         height: 100%;
@@ -128,7 +133,6 @@ body {
                 color: #e179cb;
                 overflow: hidden;
 
-
                 &::before {
                     content: attr(data-text);
                     position: absolute;
@@ -143,8 +147,13 @@ body {
         }
     }
 
+    .aboutMe, .projects, .contact {
+        scroll-margin-top: 100px; // Ajusta según la altura del header
+        padding-top: 5rem; // Espacio para evitar que se solapen con el header
+    }    
+
     .aboutMe {
-        padding-top: 2%;
+        //padding-top: 2%;
         text-align: center;
         font-size: 1.5em;       
         

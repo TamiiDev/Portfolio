@@ -3,7 +3,7 @@ let btn_menu = document.getElementById("hamburger_menu");
 let title_banner = document.querySelector(".title");
 
 btn_menu.addEventListener("click", () => {
-    title_banner.style.display = (title_banner.style.display === 'none') ? 'flex' : 'none';
+    title_banner.style.display = (title_banner.style.display === 'none') ? 'flex' : '';
 })
 
 /*MENU*/
