@@ -235,13 +235,14 @@ body {
 .container .projects_container .project_card .project_title {
   font-size: 1em;
   padding-bottom: 4%;
+  font-weight: bold;
 }
 .container .projects_container .project_card .project_image {
   padding-bottom: 2%;
 }
 .container .projects_container .project_card .project_image img {
   width: 90%;
-  height: auto;
+  aspect-ratio: 16/9;
 }
 .container .projects_container .project_card .project_description {
   font-size: 0.7em;
@@ -259,6 +260,7 @@ body {
 }
 .container .projects_container .project_card .project_technologies .img_technology {
   width: 35px;
+  margin: 5px;
 }
 .container .projects_container .project_card .project_technologies .img_technology:hover {
   box-shadow: 4px -3px 5px 1px rgba(0, 0, 0, 0.14);
