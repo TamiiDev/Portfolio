@@ -153,7 +153,6 @@ body {
     }    
 
     .aboutMe {
-        //padding-top: 2%;
         text-align: center;
         font-size: 1.5em;       
         
@@ -162,15 +161,29 @@ body {
             flex-direction: column;
             align-items: center;
 
-            img {
+            &_photo{
                 width: 60%;
                 height: auto;
                 padding-top: 2%;
             }
+            
 
-            p {
-                font-size: 0.8em;
+            div {
+                font-size: 0.9em;
                 padding: 2%;
+                text-align: left;
+            }
+        }
+
+        &_information_social {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            justify-content: flex-start;
+
+            img {
+            width: 50px !important;
+            height: auto;
             }
         }
     }

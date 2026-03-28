@@ -119,3 +119,7 @@ const validateSubjectAndMessage = (subject, message) => {
 
     return true;
 }
+
+/* FOOTER */
+const year = new Date().getFullYear();
+document.getElementById("footer").innerHTML = `Mi portfolio | &copy; 2024 - ${year} Tamara Vera`;

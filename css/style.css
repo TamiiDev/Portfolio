@@ -200,14 +200,25 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.container .aboutMe_information img {
+.container .aboutMe_information_photo {
   width: 60%;
   height: auto;
   padding-top: 2%;
 }
-.container .aboutMe_information p {
-  font-size: 0.8em;
+.container .aboutMe_information div {
+  font-size: 0.9em;
   padding: 2%;
+  text-align: left;
+}
+.container .aboutMe_information_social {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: flex-start;
+}
+.container .aboutMe_information_social img {
+  width: 50px !important;
+  height: auto;
 }
 .container .projects {
   text-align: center;
