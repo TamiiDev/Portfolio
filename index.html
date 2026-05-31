@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,9 +10,9 @@
   </head>
   <body id="intro">
     <header class="header">
-      <nav class="nav"> 
+      <nav class="nav">
         <div class="logo">
-          <img src="./img/logo.png" alt="logo"/>
+          <img src="./img/logo.png" alt="logo" />
           <a class="link_logo" href="/"><span>Tamara Dev</span></a>
         </div>
         <label class="nav_hamburger_menu" for="hamburger_menu">
@@ -52,70 +52,110 @@
           </h1>
           <h2 data-text="&nbsp;Bienvenido a mi portfolio&nbsp;">
             &nbsp;Bienvenido a mi portfolio&nbsp;
-          </h1>
+          </h2>
         </div>
       </section>
       <section class="aboutMe" id="aboutMe">
         <h2>Sobre mí</h2>
         <div class="aboutMe_information">
-          <img class="aboutMe_photo" src="./img/photo.png" alt="Tamara Vera" />
+          <img src="./img/photo.png" alt="Tamara Vera" />
           <div>
-            <p>Soy técnica en programación y actualmente me desempeño como desarrolladora .NET, participo en el desarrollo y mantenimiento de aplicaciones web.</p>
-            <p>Me caracterizo por ser una persona proactiva, organizada y responsable, con un fuerte enfoque en el aprendizaje autodidacta. </p>
-            <p>Disfruto trabajar en equipo, intercambiar ideas y encontrar soluciones eficientes a los problemas.</p>
-            <p>Estoy en búsqueda de nuevas oportunidades donde pueda aplicar mis conocimientos y habilidades técnicas, seguir creciendo profesionalmente y desarrollarme en el mundo del software.</p>
-          
+            <p>
+              Soy técnica en programación y desarrolladora .NET, con experiencia
+              en el desarrollo y mantenimiento de aplicaciones web utilizando
+              tecnologías como ASP.NET Core, Entity Framework y SQL Server.
+            </p>
+            <p>
+              Actualmente trabajo en proyectos enfocados en la gestión y
+              procesamiento de datos, aplicando buenas prácticas de desarrollo,
+              organización de código y trabajo en equipo.
+            </p>
+            <p>
+              Me interesa especialmente el desarrollo backend y disfruto crear
+              soluciones eficientes, escalables y mantenibles, colaborando con
+              otros profesionales para cumplir los objetivos del proyecto.
+            </p>
+            <p>
+              Busco oportunidades donde pueda seguir creciendo profesionalmente,
+              aportar mis conocimientos y enfrentar nuevos desafíos que me
+              permitan continuar desarrollando mis habilidades técnicas.
+            </p>
+
             <div class="aboutMe_information_social">
-              <a href="https://github.com/TamiiDev" target="_blank" aria-label="GitHub">
-                <img src="./img/github.png" alt="GitHub">
+              <a
+                href="https://github.com/TamiiDev"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <img src="./img/github.png" alt="GitHub" />
               </a>
-              <a href="https://linkedin.com/in/tamara-soledad-vera" target="_blank" aria-label="LinkedIn">
-                <img src="./img/linkedin.png" alt="LinkedIn">
+              <a
+                href="https://linkedin.com/in/tamara-soledad-vera"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <img src="./img/linkedin.png" alt="LinkedIn" />
               </a>
-              <a href="mailto:tamarasoledad.vera96@gmail.com" aria-label="Enviar mail">
-                <img src="./img/gmail.png" alt="Gmail">
+              <a
+                href="mailto:tamarasoledad.vera96@gmail.com"
+                aria-label="Enviar mail"
+              >
+                <img src="./img/gmail.png" alt="Gmail" />
               </a>
             </div>
           </div>
         </div>
-         <!-- <div class="aboutMe_information_social">
-              <a href="https://github.com/TamiiDev" target="_blank" aria-label="GitHub">
-                <img src="./img/github.png" alt="GitHub">
-              </a>
-              <a href="https://linkedin.com/in/tamara-soledad-vera" target="_blank" aria-label="LinkedIn">
-                <img src="./img/linkedin.png" alt="LinkedIn">
-              </a>
-              <a href="mailto:tamarasoledad.vera96@gmail.com" aria-label="Enviar mail">
-                <img src="./img/gmail.png" alt="Gmail">
-              </a>
-            </div> -->
       </section>
       <section class="projects" id="projects">
         <h2>Proyectos</h2>
-        <div id="projects-container" class="projects_container">
-        </div>
+        <div id="projects-container" class="projects_container"></div>
       </section>
       <section class="contact" id="contact">
         <h2>Contáctame</h2>
         <div class="contact_container">
           <div class="contact_form">
-            <form id="form" action="https://formsubmit.co/302226abd407f2d9768a520c9fb56373" method="POST">
-              <input id="name" name="name" type="text" placeholder="Nombre">
+            <form
+              id="form"
+              action="https://formsubmit.co/302226abd407f2d9768a520c9fb56373"
+              method="POST"
+            >
+              <input id="name" name="name" type="text" placeholder="Nombre" />
               <span id="name_error"></span>
-              <input id="email" name="email" type="text" placeholder="Correo Electrónico">
+              <input
+                id="email"
+                name="email"
+                type="text"
+                placeholder="Correo Electrónico"
+              />
               <span id="email_error"></span>
-              <input id="subject" name="subject" type="text" placeholder="Asunto">
+              <input
+                id="subject"
+                name="subject"
+                type="text"
+                placeholder="Asunto"
+              />
               <span id="subject_error"></span>
-              <textarea id="message" name="message" placeholder="Tu mensaje"></textarea>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tu mensaje"
+              ></textarea>
               <span id="message_error"></span>
               <button id="btn_submit" type="submit">Enviar</button>
 
-              <input type="hidden" name="_next" value="https://tamiidev.github.io/Portfolio/">
-              <input type="hidden" name="_captcha" value="false">
+              <input
+                type="hidden"
+                name="_next"
+                value="https://tamiidev.github.io/Portfolio/"
+              />
+              <input type="hidden" name="_captcha" value="false" />
             </form>
             <p class="confirmation">El formulario se envió correctamente</p>
           </div>
-          <img src="./img/girl_laptop.png" alt="Chica utilizando una notebook">
+          <img
+            src="./img/girl_laptop.png"
+            alt="Chica utilizando una notebook"
+          />
         </div>
       </section>
     </main>
